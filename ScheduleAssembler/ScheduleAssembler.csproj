@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application Layer\ViewModels\" />
+    <Folder Include="Application Layer\Services\" />
+    <Folder Include="Domain Layer\Entities\" />
+    <Folder Include="Domain Layer\Repositories\" />
+    <Folder Include="Infrastructure Layer\Data\" />
+    <Folder Include="Infrastructure Layer\Services\" />
+    <Folder Include="UI\Controllers\" />
+    <Folder Include="UI\ViewModels\" />
+    <Folder Include="UI\Views\" />
+  </ItemGroup>
+
+</Project>
